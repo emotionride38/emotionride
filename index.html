@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>E-Motion Ride | Vente & location de motos électriques à Grenoble</title>
+<meta name="description" content="Grosse offre hivernale : location Talaria MX4 dès 50 €/24h. Vente Talaria et Sur-Ron, révision 45 €, balades guidées en montagne à Grenoble.">
+<link href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;600;800;900&family=Rajdhani:wght@400;500;600&family=Inter:wght@400;600&display=swap)" rel="stylesheet">
+<style>
+:root{--bg:#020a05;--bg2:#06160c;--g:#3df57e;--g2:#1fbf5c;--gm:#5fae7c;--t:#eef3ef;--m:#93a89a;--gl:rgba(61,245,126,.04);--l:rgba(61,245,126,.15);--r:18px}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--t);font-family:Inter,sans-serif;line-height:1.65}
+img{max-width:100%;display:block}a{color:inherit;text-decoration:none}
+.c{width:min(1180px,92%);margin:auto}
+h1,h2,h3{font-family:Montserrat,sans-serif;line-height:1.15}
+h1{font-size:clamp(2rem,4.5vw,3.4rem);font-weight:800}h2{font-size:clamp(1.7rem,3.4vw,2.5rem);margin-bottom:1rem}h3{margin-bottom:.6rem}
+p{margin-bottom:1rem}.a{color:var(--g)}.m{color:var(--m)}.lead{font-size:1.1rem;color:#c9d4cd;max-width:60ch}
+.ey{font-family:Rajdhani;text-transform:uppercase;letter-spacing:.35em;font-size:.85rem;color:var(--gm);margin-bottom:1rem}
+.btn{display:inline-block;background:linear-gradient(180deg,#5dff96,var(--g2));color:#022010;font-weight:800;font-family:Montserrat;padding:.9rem 1.6rem;border-radius:999px;border:0;cursor:pointer;transition:.25s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(61,245,126,.35)}
+.gh{background:transparent;color:var(--t);border:1px solid var(--l)}
+.act{display:flex;flex-wrap:wrap;gap:1rem;margin-top:1.5rem}
+
+/* ===== LOGO ===== */
+.Egrad{background:linear-gradient(180deg,#7dffab 0%,#3df57e 45%,#18b552 100%);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 12px rgba(61,245,126,.45))}
+.bolt{filter:drop-shadow(0 0 14px rgba(61,245,126,.55))}
+/* petit logo (menu, pied de page) */
+.logo{display:flex;align-items:center;gap:.8rem}
+.logo .bolt{width:44px;height:44px}
+.lt{font-family:Montserrat;line-height:1}
+.lt .em{font-size:1.2rem;font-weight:200;letter-spacing:.22em;color:#fff;white-space:nowrap}
+.lt .em b{font-weight:900;letter-spacing:0;font-size:1.3em}
+.lt .ri{display:flex;align-items:center;gap:.5rem;margin-top:.35rem;font-family:Rajdhani;font-size:.68rem;letter-spacing:.75em;color:var(--gm)}
+.lt .ri:before,.lt .ri:after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--g),transparent)}
+/* grand logo (accueil) */
+.biglogo{text-align:center;padding:150px 0 70px;background:radial-gradient(circle at 50% 40%,rgba(61,245,126,.16),transparent 55%),radial-gradient(circle at 50% 40%,#073d1d 0%,#021007 60%,var(--bg) 100%)}
+.biglogo .bolt{width:150px;height:150px;margin:0 auto 2.2rem}
+.bl-em{font-family:Montserrat;font-weight:200;color:#fff;font-size:clamp(2.6rem,9vw,5.5rem);letter-spacing:.18em;line-height:1;text-shadow:0 6px 18px rgba(0,0,0,.6)}
+.bl-em b{font-weight:900;letter-spacing:0;font-size:1.12em}
+.bl-line{width:min(760px,90%);height:2px;margin:1.6rem auto;background:linear-gradient(90deg,transparent,var(--g),transparent);box-shadow:0 0 14px var(--g)}
+.bl-ride{font-family:Rajdhani;font-weight:500;color:var(--gm);font-size:clamp(1.1rem,2.5vw,1.6rem);letter-spacing:1.1em;padding-left:1.1em}
+.bl-line2{width:min(760px,90%);height:1px;margin:1.6rem auto 1.2rem;background:linear-gradient(90deg,transparent,rgba(61,245,126,.4),transparent)}
+.bl-tag{font-family:Rajdhani;color:var(--gm);letter-spacing:.3em;font-size:clamp(.75rem,1.8vw,1.1rem)}
+.pills{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:1rem;margin-top:1.8rem}
+.pills span{font-family:Rajdhani;letter-spacing:.2em;color:var(--gm);border:1.5px solid rgba(61,245,126,.35);border-radius:999px;padding:.45rem 1.4rem;background:rgba(61,245,126,.04);box-shadow:inset 0 0 12px rgba(61,245,126,.08)}
+.pills i{width:6px;height:6px;border-radius:50%;background:var(--gm);opacity:.6}
+
+header{position:fixed;inset:0 0 auto;z-index:50;background:rgba(2,10,5,.85);backdrop-filter:blur(14px);border-bottom:1px solid var(--l)}
+.hi{display:flex;align-items:center;justify-content:space-between;height:78px}
+nav{display:flex;gap:1.8rem;align-items:center}nav a:hover{color:var(--g)}
+.bg{display:none;background:none;border:0;color:#fff;font-size:1.8rem;cursor:pointer}
+.hero{padding:70px 0 90px;background:var(--bg)}
+.hg{display:grid;grid-template-columns:1.15fr .85fr;gap:4rem;align-items:center}
+.hg img{border-radius:24px;box-shadow:0 30px 80px rgba(0,0,0,.6);transform:rotate(2deg)}
+.bd{list-style:none;display:flex;flex-wrap:wrap;gap:.6rem;margin-top:2rem}.bd li{background:var(--gl);border:1px solid var(--l);padding:.4rem .9rem;border-radius:999px;font-size:.85rem}
+section{padding:90px 0}.alt{background:var(--bg2)}.hd{text-align:center;margin-bottom:3rem}
+.g2,.g4{display:grid;gap:1.5rem}.g2{grid-template-columns:1fr 1fr}.g4{grid-template-columns:repeat(4,1fr)}
+.card{background:var(--gl);border:1px solid var(--l);border-radius:var(--r);padding:1.8rem;backdrop-filter:blur(12px);transition:.3s}
+.card:hover{border-color:rgba(61,245,126,.5);transform:translateY(-4px)}.card p{color:var(--m);font-size:.95rem}
+.promo{text-align:center;margin-bottom:2.5rem;padding:1.8rem 1rem;border-radius:var(--r);background:linear-gradient(135deg,rgba(61,245,126,.18),rgba(61,245,126,.03));border:2px solid var(--g);box-shadow:0 0 40px rgba(61,245,126,.25);animation:pulse 2.5s infinite}
+.promo strong{display:block;font-family:Montserrat;font-weight:900;font-style:italic;font-size:clamp(1.8rem,5vw,3.2rem);color:var(--g);text-shadow:0 0 18px rgba(61,245,126,.6)}
+.promo span{font-size:1.05rem;color:#fff}
+@keyframes pulse{50%{box-shadow:0 0 70px rgba(61,245,126,.45)}}
+.tag{display:inline-block;background:var(--g);color:#022010;font-weight:800;font-size:.7rem;padding:.25rem .7rem;border-radius:999px;margin-bottom:.8rem;letter-spacing:.08em}
+.pc{background:var(--gl);border:1px solid var(--l);border-radius:var(--r);overflow:hidden;display:grid;grid-template-columns:.9fr 1.1fr}
+.pc img{height:100%;object-fit:cover;object-position:top}.pc div{padding:1.8rem}
+.pl{list-style:none}.pl li{display:flex;justify-content:space-between;align-items:center;padding:.75rem 0;border-bottom:1px solid var(--l)}
+.pl b{color:var(--g);font-family:Montserrat;font-size:1.15rem}.pl s{color:var(--m);font-size:.85rem;margin-right:.5rem}
+.sp{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center}.rd{border-radius:var(--r)}
+.ck{list-style:none}.ck li{padding:.4rem 0 .4rem 1.7rem;position:relative}.ck li:before{content:'✓';position:absolute;left:0;color:var(--g)}
+.cd{margin-top:2.5rem;padding:2rem;border:1px solid var(--l);border-radius:var(--r);background:var(--gl)}
+.cg{list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin:1rem 0}.cg li{border-left:2px solid var(--g);padding-left:1rem}
+.big{font-family:Montserrat;font-weight:900;font-size:3rem;color:var(--g);line-height:1;margin:.5rem 0 1rem}.big small{font-size:1rem;color:var(--m);font-weight:600}
+summary{cursor:pointer;color:var(--g);margin:1rem 0}
+table{width:100%;border-collapse:collapse;border:1px solid var(--l)}th,td{padding:.9rem 1.1rem;text-align:left;border-bottom:1px solid var(--l)}
+th{color:var(--g);font-family:Montserrat;font-size:.8rem;text-transform:uppercase}.tw{overflow-x:auto}
+form{display:flex;flex-direction:column;gap:1rem;background:var(--gl);border:1px solid var(--l);border-radius:var(--r);padding:2rem}
+label{display:flex;flex-direction:column;gap:.4rem;font-size:.85rem;color:var(--m)}
+input,select,textarea{background:rgba(0,0,0,.35);border:1px solid var(--l);border-radius:12px;padding:.8rem 1rem;color:var(--t);font:inherit}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--g)}
+.ct{display:grid;grid-template-columns:1.2fr .8fr;gap:2rem}.info a{color:var(--g)}
+iframe{width:100%;height:360px;border:0;border-radius:var(--r);margin-top:2.5rem;filter:invert(.9) hue-rotate(180deg)}
+footer{border-top:1px solid var(--l);padding:40px 0;text-align:center;color:var(--m);font-size:.9rem}
+footer .logo{justify-content:center;margin-bottom:1rem}
+.wa{position:fixed;right:20px;bottom:20px;width:58px;height:58px;border-radius:50%;background:var(--g);color:#022010;display:grid;place-items:center;font-size:1.6rem;box-shadow:0 10px 30px rgba(61,245,126,.4);z-index:40}
+.rv{opacity:0;transform:translateY(25px);transition:.8s}.rv.v{opacity:1;transform:none}
+@media(max-width:960px){.hg,.sp,.ct,.g2{grid-template-columns:1fr}.g4,.cg{grid-template-columns:1fr 1fr}.bg{display:block}
+nav{position:fixed;inset:78px 0 auto;flex-direction:column;padding:2rem;background:var(--bg);display:none}nav.o{display:flex}}
+@media(max-width:600px){.g4,.cg,.pc{grid-template-columns:1fr}.pc img{max-height:320px}.pills i{display:none}.lt .em{font-size:1rem}}
+</style>
+</head>
+<body>
+
+<!-- Dessin de l'éclair du logo -->
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <linearGradient id="gb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8affb4"/><stop offset=".5" stop-color="#3df57e"/><stop offset="1" stop-color="#16a84a"/></linearGradient>
+    <radialGradient id="gc"><stop offset="0" stop-color="#3df57e" stop-opacity=".22"/><stop offset="1" stop-color="#3df57e" stop-opacity="0"/></radialGradient>
+  </defs>
+  <symbol id="bolt" viewBox="0 0 100 100">
+    <circle cx="50" cy="50" r="40" fill="url(#gc)"/>
+    <circle cx="50" cy="50" r="47" fill="none" stroke="#3df57e" stroke-opacity=".7" stroke-width="1.6" stroke-dasharray="5 4"/>
+    <circle cx="50" cy="50" r="37" fill="none" stroke="#3df57e" stroke-opacity=".35" stroke-width="1.2"/>
+    <path d="M57 19 L33 55 H48 L41 81 L68 43 H53 Z" fill="url(#gb)"/>
+  </symbol>
+</svg>
+
+<header><div class="c hi">
+  <a href="#accueil" class="logo" aria-label="E-Motion Ride">
+    <svg class="bolt"><use href="#bolt"/></svg>
+    <div class="lt"><div class="em"><b class="Egrad">E</b>-MOTION</div><div class="ri">RIDE</div></div>
+  </a>
+  <button class="bg" aria-label="Menu">☰</button>
+  <nav>
+    <a href="#accueil">Accueil</a><a href="#apropos">À propos</a><a href="#tarifs">Tarifs</a><a href="#contact">Contact</a>
+    <a href="[wa.me](https://wa.me/33636439659)" class="btn" target="_blank">Réserver</a>
+  </nav>
+</div></header>
+
+<!-- GRAND LOGO -->
+<section class="biglogo" id="accueil">
+  <svg class="bolt"><use href="#bolt"/></svg>
+  <div class="bl-em"><b class="Egrad">E</b>-MOTION</div>
+  <div class="bl-line"></div>
+  <div class="bl-ride">RIDE</div>
+  <div class="bl-line2"></div>
+  <div class="bl-tag">VENTE &amp; LOCATION · MOBILITÉ ÉLECTRIQUE</div>
+  <div class="pills"><span>🛒 VENTE</span><i></i><span>🔒 LOCATION</span><i></i><span>⚡ ÉLECTRIQUE</span></div>
+</section>
+
+<!-- ACCUEIL -->
+<section class="hero"><div class="c hg">
+  <div class="rv">
+    <p class="ey">Grenoble · Mobilité électrique</p>
+    <h1>Votre aventure<br><span class="a">commence ici.</span></h1>
+    <p class="lead">Location de Talaria à la journée, au week-end, à la semaine ou au mois. Vente de motos neuves, révision complète et balades guidées sur les chemins de montagne.</p>
+    <div class="act"><a href="#tarifs" class="btn">❄️ Voir l'offre hivernale</a><a href="#contact" class="btn gh">Nous contacter</a></div>
+    <ul class="bd"><li>⚡ 100 % électrique</li><li>✅ Homologuées 50cc</li><li>🪪 BSR ou permis B</li><li>🛡️ Assurance incluse</li><li>∞ Kilométrage illimité</li></ul>
+  </div>
+  <img class="rv" src="location-mx4.png" alt="Offre hivernale location Talaria MX4">
+</div></section>
+
+<section class="alt"><div class="c">
+  <div class="hd rv"><p class="ey">Nos prestations</p><h2>Tout pour rouler électrique</h2></div>
+  <div class="g4">
+    <div class="card rv"><h3>🏍️ Location</h3><p>Talaria MX4 et MX5 homologuées 50cc, pour 24h, un week-end, une semaine ou un mois.</p><a class="a" href="#location">Dès 50 € / 24h →</a></div>
+    <div class="card rv"><h3>⛰️ Balades guidées</h3><p>De 2h à 3h sur les chemins de montagne, motos livrées sur place, guide et équipement inclus.</p><a class="a" href="#balades">130 € →</a></div>
+    <div class="card rv"><h3>🔧 Révision</h3><p>Révision complète Talaria et Sur-Ron, carnet d'entretien fourni.</p><a class="a" href="#revision">45 € →</a></div>
+    <div class="card rv"><h3>🛒 Vente</h3><p>Talaria et Sur-Ron neuves (0 km), en stock ou sur commande.</p><a class="a" href="#vente">Dès 4 000 € →</a></div>
+  </div>
+</div></section>
+
+<!-- À PROPOS -->
+<section id="apropos"><div class="c sp">
+  <div class="rv">
+    <p class="ey">À propos</p><h2>Rouler électrique, <span class="a">vivre l'aventure.</span></h2>
+    <p>À deux pas du centre-ville de Grenoble et tout près de la nature, E-Motion Ride est spécialisé dans les motos électriques tout-terrain <b>Talaria</b> et <b>Sur-Ron</b>.</p>
+    <p>Location, vente, entretien et balades encadrées : tout au même endroit, avec des conseils de passionnés. Sécurité, plaisir, découverte, on s'occupe de tout.</p>
+  </div>
+  <img class="rd rv" src="brochure.png" alt="Brochure E-Motion Ride">
+</div></section>
+
+<!-- TARIFS -->
+<section class="alt" id="tarifs"><div class="c" id="location">
+  <div class="hd rv"><p class="ey">Tarifs · Location</p><h2>Louez votre Talaria</h2></div>
+  <div class="promo rv">
+    <strong>❄️ GROSSE OFFRE HIVERNALE ❄️</strong>
+    <span>Des prix jamais vus pour rouler en Talaria tout l'hiver. Profitez-en avant qu'il soit trop tard !</span>
+  </div>
+  <div class="g2">
+    <div class="pc rv"><img src="location-mx4.png" alt="Talaria MX4"><div>
+      <span class="tag">OFFRE HIVERNALE</span>
+      <h3>Talaria <span class="a">MX4</span></h3><p class="m">Homologuée 50cc</p>
+      <ul class="pl">
+        <li>24h<span><s>80 €</s><b>50 €</b></span></li>
+        <li>Week-end<span><s>240 €</s><b>180 €</b></span></li>
+        <li>Semaine<span><s>350 €</s><b>250 €</b></span></li>
+        <li>Mois<b>Sur devis</b></li>
+      </ul></div></div>
+    <div class="pc rv"><img src="location-mx5.png" alt="Talaria MX5"><div>
+      <span class="tag">OFFRE HIVERNALE</span>
+      <h3>Talaria <span class="a">MX5</span></h3><p class="m">Homologuée 50cc</p>
+      <ul class="pl">
+        <li>24h<b>80 €</b></li><li>Week-end<b>240 €</b></li><li>Semaine<b>350 €</b></li><li>Mois<b>Sur devis</b></li>
+      </ul></div></div>
+  </div>
+  <div class="cd rv"><h3>Conditions de location</h3>
+    <ul class="cg">
+      <li><b>BSR ou permis B</b><br><span class="m">obligatoire</span></li>
+      <li><b>Homologuées 50cc</b><br><span class="m">MX4 et MX5</span></li>
+      <li><b>Équipement obligatoire</b><br><span class="m">casque, gants, etc.</span></li>
+      <li><b>Caution 2 000 €</b><br><span class="m">pré-autorisation bancaire</span></li>
+      <li><b>Assurance incluse</b><br><span class="m">responsabilité civile</span></li>
+      <li><b>Kilométrage illimité</b></li>
+    </ul>
+    <details><summary>Conditions générales de location</summary><ul class="ck">
+      <li>Le locataire s'engage à respecter le code de la route et l'environnement.</li>
+      <li>Toute dégradation ou perte de matériel sera facturée.</li>
+      <li>Le véhicule ne doit pas sortir des sentiers et zones autorisées lors des balades.</li>
+      <li>En cas d'annulation moins de 48h avant le départ, la réservation est due.</li>
+      <li>E-Motion Ride se réserve le droit d'annuler une location en cas de non-respect des conditions.</li>
+    </ul></details>
+  </div>
+</div></section>
+
+<section id="balades"><div class="c sp">
+  <div class="rv"><p class="ey">Balades guidées</p><h2>Découvrez Grenoble autrement</h2>
+    <p class="big">130 € <small>/ balade de 2h à 3h</small></p>
+    <h3>Inclus dans le prix</h3>
+    <ul class="ck">
+      <li>Livraison des motos à l'adresse de l'excursion</li>
+      <li>Le ou les guides pour vous accompagner</li>
+      <li>Le matériel de sécurité pour la balade</li>
+    </ul>
+    <h3 style="margin-top:1.5rem">Conditions</h3>
+    <ul class="ck"><li>BSR ou permis B obligatoire</li><li>Caution de 1 000 €</li></ul>
+    <div class="act"><a href="#contact" class="btn">Réserver une balade</a></div></div>
+  <img class="rd rv" src="brochure.png" alt="Balades guidées en moto électrique">
+</div></section>
+
+<section class="alt" id="revision"><div class="c sp">
+  <img class="rd rv" src="revision.jpeg" alt="Révision Talaria et Sur-Ron">
+  <div class="rv"><p class="ey">Atelier</p><h2>Révision Talaria & Sur-Ron <span class="a">45 €</span></h2>
+    <ul class="ck">
+      <li>Resserrage de toutes les vis et fixations</li><li>Nettoyage de la moto</li><li>Graissage et ajustement de la chaîne</li>
+      <li>Diagnostic complet de la moto</li><li>Contrôle des plaquettes et disques de frein</li><li>Contrôle des pneus</li>
+      <li>Diagnostic des éventuels problèmes électroniques</li><li>Recherche des pièces à remplacer si nécessaire</li>
+      <li>Carnet d'entretien fourni à la fin de la révision</li></ul>
+    <p class="m">Pièces et réparations supplémentaires sur devis, après accord du client.</p></div>
+</div></section>
+
+<section id="vente"><div class="c">
+  <div class="hd rv"><p class="ey">Vente</p><h2>Motos neuves (0 km)</h2></div>
+  <div class="tw rv"><table>
+    <tr><th>Modèle</th><th>Sur commande</th><th>En stock</th></tr>
+    <tr><td>Talaria MX4</td><td>—</td><td>5 000 €</td></tr>
+    <tr><td>Talaria MX4 Édition limitée</td><td>—</td><td>5 800 €</td></tr>
+    <tr><td>Talaria MX5</td><td>5 500 €</td><td>6 000 €</td></tr>
+    <tr><td>Talaria Komodo 125cc</td><td>6 500 €</td><td>7 000 €</td></tr>
+    <tr><td>Sur-Ron Ultra Bee</td><td>5 200 €</td><td>—</td></tr>
+    <tr><td>Sur-Ron Ultra Bee V2</td><td>5 800 €</td><td>—</td></tr>
+    <tr><td>Sur-Ron Light Bee</td><td>4 000 € (7 jours d'attente)</td><td>—</td></tr>
+  </table></div>
+  <p class="m rv" style="margin-top:1rem">Délais sur commande : 30 à 45 jours, sous réserve de disponibilité fournisseur.</p>
+  <img class="rd rv" src="vente.png" alt="Tarifs motos neuves Talaria et Sur-Ron" style="max-width:600px;margin:2rem auto 0">
+</div></section>
+
+<section class="alt"><div class="c sp">
+  <div class="rv"><p class="ey">Carte cadeau</p><h2>Offrez 24h de liberté</h2>
+    <p class="lead">24h de location d'une Talaria MX4, équipements fournis. Un cadeau qui se vit.</p>
+    <div class="act"><a href="#contact" class="btn">Commander une carte cadeau</a></div></div>
+  <img class="rd rv" src="carte-cadeau.png" alt="Carte cadeau E-Motion Ride">
+</div></section>
+
+<!-- CONTACT -->
+<section id="contact"><div class="c">
+  <div class="hd rv"><p class="ey">Contact</p><h2>Parlons de votre prochaine sortie</h2></div>
+  <div class="ct">
+    <form class="rv" name="contact" method="POST" data-netlify="true">
+      <input type="hidden" name="form-name" value="contact">
+      <label>Nom<input name="nom" required></label>
+      <label>Téléphone<input type="tel" name="telephone"></label>
+      <label>E-mail<input type="email" name="email" required></label>
+      <label>Sujet<select name="sujet">
+        <option>Location Talaria MX4 (offre hivernale)</option><option>Location Talaria MX5 (offre hivernale)</option><option>Location au mois (devis)</option>
+        <option>Balade guidée</option><option>Révision</option><option>Achat d'une moto</option><option>Carte cadeau</option><option>Autre</option>
+      </select></label>
+      <label>Message<textarea name="message" rows="5" required placeholder="Dates souhaitées, nombre de personnes…"></textarea></label>
+      <button class="btn" type="submit">Envoyer le message</button>
+    </form>
+    <div class="card info rv">
+      <h3>Coordonnées</h3>
+      <p>📍 107 Cours Jean Jaurès, 38000 Grenoble</p>
+      <p>📞 <a href="tel:+33636439659">06 36 43 96 59</a></p>
+      <p>🕙 Du mardi au samedi, 10h – 18h</p>
+      <h3 style="margin-top:1.5rem">Suivez-nous</h3>
+      <p><a href="[instagram.com](https://www.instagram.com/emotionride38)" target="_blank">Instagram · @emotionride38</a></p>
+      <p><a href="[snapchat.com](https://www.snapchat.com/add/emotion.ride)" target="_blank">Snapchat · emotion.ride</a></p>
+      <p><a href="[tiktok.com](https://www.tiktok.com/@emotion.ride)" target="_blank">TikTok · @emotion.ride</a></p>
+      <a href="[wa.me](https://wa.me/33636439659)" class="btn" target="_blank">Écrire sur WhatsApp</a>
+    </div>
+  </div>
+  <iframe title="Plan E-Motion Ride" loading="lazy" src="[google.com](https://www.google.com/maps?q=107+Cours+Jean+Jaures+38000+Grenoble&output=embed)"></iframe>
+</div></section>
+
+<footer>
+  <a href="#accueil" class="logo"><svg class="bolt"><use href="#bolt"/></svg><div class="lt"><div class="em"><b class="Egrad">E</b>-MOTION</div><div class="ri">RIDE</div></div></a>
+  © 2026 E-Motion Ride · 107 Cours Jean Jaurès, Grenoble · Roulez électrique, vivez l'aventure
+</footer>
+<a href="[wa.me](https://wa.me/33636439659)" class="wa" target="_blank" aria-label="WhatsApp">💬</a>
+
+<script>
+document.querySelector('.bg').onclick=()=>document.querySelector('nav').classList.toggle('o');
+document.querySelectorAll('nav a').forEach(a=>a.onclick=()=>document.querySelector('nav').classList.remove('o'));
+const io=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting)x.target.classList.add('v')}),{threshold:.1});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
